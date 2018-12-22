@@ -32,7 +32,7 @@ public class HomeImageActivity extends AppCompatActivity {
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new HomeViewpagerAdapter(this, getHomeImageModelList()));
-        viewPager.setPageTransformer(true, new FidgetSpinTransformation());
+        viewPager.setPageTransformer(true, new SimpleTransformation());
     }
 
     private List<HomeImageModel> getHomeImageModelList() {

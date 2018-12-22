@@ -27,7 +27,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     private void initDashboard(){
-        cardViewOne = findViewById(R.id.card_home_1);
+        cardViewOne = (CardView)findViewById(R.id.card_home_1);
         cardViewOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
