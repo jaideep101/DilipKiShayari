@@ -44,15 +44,19 @@
 
             <ImageView
                 android:id="@+id/dashboard_header_image"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:layout_alignParentRight="true"
                 android:src="@drawable/dashboard_icon" />
         </RelativeLayout>
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:soundEffectsEnabled="true"
+            android:scrollIndicators="bottom"
+            android:overScrollMode="always">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,19 +80,19 @@
                         android:layout_marginBottom="12dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_one"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_love" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -116,19 +120,19 @@
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_two"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_sad" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -162,19 +166,19 @@
                         android:layout_marginBottom="12dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_three"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_missing" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -202,19 +206,19 @@
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_four"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_friends" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -248,19 +252,19 @@
                         android:layout_marginBottom="12dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_five"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_funny" />
+                                android:scaleType="fitXY"/>
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -288,19 +292,19 @@
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_six"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_inspire" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -334,19 +338,19 @@
                         android:layout_marginBottom="12dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_seven"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_morning" />
+                                android:scaleType="fitXY"/>
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -374,19 +378,19 @@
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="10dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="135dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/dashboard_image_eight"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/dashboard_wishes" />
+                                android:scaleType="fitXY" />
 
                             <TextView
                                 android:layout_width="match_parent"
