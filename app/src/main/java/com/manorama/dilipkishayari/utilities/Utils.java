@@ -2,10 +2,16 @@ package com.manorama.dilipkishayari.utilities;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Handler;
+import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewCompat;
 import android.text.TextUtils;
@@ -102,7 +108,7 @@ public class Utils {
         return systemTime;
     }
 
-    public static String millionString(String numberStr){
+    public static String millionString(String numberStr) {
         Long numberLong = new Long(numberStr);
         DecimalFormat decimalFormat = new DecimalFormat("#,###");
         String numberAsString = decimalFormat.format(numberLong);
@@ -126,7 +132,7 @@ public class Utils {
     }
 
     public static String getResponseText(String stringUrl) {
-        System.out.println("############# getResponseText : "+stringUrl);
+        System.out.println("############# getResponseText : " + stringUrl);
         StringBuilder response = new StringBuilder();
         try {
             URL url = new URL(stringUrl);
@@ -175,7 +181,6 @@ public class Utils {
     }
 
 
-
 //    public static void rotateFabForward(final FloatingActionButton fab) {
 //        Handler mhandler = new Handler();
 //        if (fab != null) {
@@ -207,7 +212,7 @@ public class Utils {
                 printText("############### hello before activity : " + activity);
                 printText("############### hello set activity : " + object.toString());
                 printText("############### hello get activity : " + object.get("activity"));
-               // FinderBaseActivity baseActivity = (FinderBaseActivity) object.get("activity");
+                // FinderBaseActivity baseActivity = (FinderBaseActivity) object.get("activity");
                 //printText("############### hello after activity : " + baseActivity);
                 return object;
             } catch (JSONException e) {
@@ -218,7 +223,6 @@ public class Utils {
     }
 
 
-
     public static void sleep(long time) {
         try {
             Thread.sleep(time);
@@ -227,19 +231,20 @@ public class Utils {
         }
     }
 
-    public static int getDimesionPixel(Context mContext, String dimension){
-        int pixelInDP = (dimension.equals(DIMENSION_WIDTH))?Utils.getScreenWidthDP(mContext): Utils.getScreenHeightDP(mContext);
-        int paddingDp = pixelInDP-140;
+    public static int getDimesionPixel(Context mContext, String dimension) {
+        int pixelInDP = (dimension.equals(DIMENSION_WIDTH)) ? Utils.getScreenWidthDP(mContext) : Utils.getScreenHeightDP(mContext);
+        int paddingDp = pixelInDP - 140;
         float density = mContext.getResources().getDisplayMetrics().density;
-        int paddingPixel = (int)(paddingDp * density);
+        int paddingPixel = (int) (paddingDp * density);
         return paddingPixel;
     }
 
-    public static int getScreenWidthDP(Context mContext){
+    public static int getScreenWidthDP(Context mContext) {
         DisplayMetrics displayMetrics = mContext.getResources().getDisplayMetrics();
         float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
         return Math.round(dpWidth);
     }
+
     public static int getScreenHeightDP(Context mContext) {
         DisplayMetrics displayMetrics = mContext.getResources().getDisplayMetrics();
         float dpHeight = displayMetrics.heightPixels / displayMetrics.density;
@@ -261,9 +266,9 @@ public class Utils {
         duration = duration.contains("H") ? duration.replace("H", ":") : duration;
         duration = duration.contains("M") ? duration.replace("M", ":") : duration;
         String[] split = duration.split(":");
-        for(int i = 0; i< split.length; i++){
+        for (int i = 0; i < split.length; i++) {
             String item = split[i];
-            split[i] = item.length() <= 1 ? "0"+item : item;
+            split[i] = item.length() <= 1 ? "0" + item : item;
         }
         return TextUtils.join(":", split);
     }
@@ -293,23 +298,23 @@ public class Utils {
         Utils.admobDisplayCount = admobDisplayCount;
     }
 
-    public static boolean isAdmobDisplay(){
-        if(admobDisplayCount < 5){
+    public static boolean isAdmobDisplay() {
+        if (admobDisplayCount < 5) {
             admobDisplayCount = admobDisplayCount + 1;
             return false;
-        }else{
+        } else {
             admobDisplayCount = 0;
             return true;
         }
 
     }
 
-    public static String getBuildVersion(Context mContext){
+    public static String getBuildVersion(Context mContext) {
         String versionName = Utils.DEFAULT;
-        try{
+        try {
             versionName = mContext.getPackageManager()
                     .getPackageInfo(mContext.getPackageName(), 0).versionName;
-        }catch (Exception ex){
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
         return versionName;
@@ -330,5 +335,33 @@ public class Utils {
             builder.append(cap);
         }
         return builder.toString();
+    }
+
+    public static Bitmap getImageBitmap(Context mContext, View v) {
+        DisplayMetrics dm = mContext.getResources().getDisplayMetrics();
+        v.measure(View.MeasureSpec.makeMeasureSpec(dm.widthPixels, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(dm.heightPixels, View.MeasureSpec.EXACTLY));
+        v.layout(0, 0, v.getMeasuredWidth(), v.getMeasuredHeight());
+        Bitmap returnedBitmap = Bitmap.createBitmap(v.getMeasuredWidth(),
+                v.getMeasuredHeight(), Bitmap.Config.ARGB_8888);
+        Canvas c = new Canvas(returnedBitmap);
+        v.draw(c);
+
+        return returnedBitmap;
+    }
+
+    public static void shareImage(Context context, Bitmap bitmap,String text){
+        //bitmap is ur image and text is which is written in edtitext
+        //you will get the image from the path
+        String pathofBmp=
+                MediaStore.Images.Media.insertImage(context.getContentResolver(),
+                        bitmap,"title", null);
+        Uri uri = Uri.parse(pathofBmp);
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setType("image/*");
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Star App");
+        shareIntent.putExtra(Intent.EXTRA_TEXT, text);
+        shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
+        context.startActivity(Intent.createChooser(shareIntent, "Share with"));
     }
 }

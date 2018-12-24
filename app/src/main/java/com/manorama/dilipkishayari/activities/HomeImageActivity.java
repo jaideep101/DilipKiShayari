@@ -9,14 +9,20 @@ import android.widget.ImageView;
 
 import com.manorama.dilipkishayari.R;
 import com.manorama.dilipkishayari.adapter.HomeViewpagerAdapter;
+import com.manorama.dilipkishayari.json.LoveShayariHandler;
 import com.manorama.dilipkishayari.model.HomeImageModel;
 import com.manorama.dilipkishayari.transformations.SimpleTransformation;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HomeImageActivity extends AppCompatActivity {
     private List<HomeImageModel> homeImageModelList = new ArrayList<HomeImageModel>();
+    LoveShayariHandler jsonLoveHandler = new LoveShayariHandler();
     private ImageView leftImageView;
     private ImageView rightImageView;
     private ImageView refreshImageView;
@@ -27,8 +33,11 @@ public class HomeImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home_viewpager);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        initHomeImageScreen();
+    }
+
+    public void initHomeImageScreen(){
         viewPager = (ViewPager) findViewById(R.id.viewpager);
-        setViewPagerAdapter();
 
         leftImageView = (ImageView)findViewById(R.id.left_item_imageview);
         leftImageView.setOnClickListener(new View.OnClickListener() {
@@ -51,23 +60,41 @@ public class HomeImageActivity extends AppCompatActivity {
                 setViewPagerAdapter();
             }
         });
+        setViewPagerAdapter();
     }
 
     private void setViewPagerAdapter(){
-        HomeViewpagerAdapter viewpagerAdapter = new HomeViewpagerAdapter(this, getHomeImageModelList());
+        jsonLoveHandler.createLoveJson();
+        System.out.println("################################## createLoveJson : "+getHomeImageModelList(jsonLoveHandler.getLoveJsonArray()).size());
+        HomeViewpagerAdapter viewpagerAdapter = new HomeViewpagerAdapter(this, getHomeImageModelList(jsonLoveHandler.getLoveJsonArray()));
         viewPager.setAdapter(viewpagerAdapter);
         viewPager.setPageTransformer(true, new SimpleTransformation());
         viewPager.invalidate();
     }
 
-    private List<HomeImageModel> getHomeImageModelList() {
+    private List<HomeImageModel> getHomeImageModelList(JSONArray jsonArray) {
         HomeImageModel homeImageModel = null;
-        for (int i = 0; i < 10; i++) {
-            homeImageModel = new HomeImageModel();
-            homeImageModel.setShayariTitle("Page One");
-            homeImageModel.setShayariMessage("Page One Message");
-            homeImageModelList.add(homeImageModel);
+        try {
+            for (int i = 0; i < jsonArray.length(); i++) {
+                homeImageModel = new HomeImageModel();
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                if(jsonObject.has(LoveShayariHandler.JSON_ID)){
+                    homeImageModel.setShayariId(jsonObject.getString(LoveShayariHandler.JSON_ID));
+                }
+
+                if(jsonObject.has(LoveShayariHandler.JSON_TITLE)){
+                    homeImageModel.setShayariTitle(jsonObject.getString(LoveShayariHandler.JSON_TITLE));
+                }
+
+                if(jsonObject.has(LoveShayariHandler.JSON_MESSAGE)){
+                    homeImageModel.setShayariMessage(jsonObject.getString(LoveShayariHandler.JSON_MESSAGE));
+                }
+                homeImageModelList.add(homeImageModel);
+            }
+        }catch (JSONException jex){
+            jex.printStackTrace();
         }
         return homeImageModelList;
     }
+
 }

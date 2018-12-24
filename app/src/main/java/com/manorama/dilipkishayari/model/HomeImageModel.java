@@ -4,6 +4,7 @@ public class HomeImageModel {
 
     private String shayariTitle;
     private String shayariMessage;
+    private String shayariId;
 
     public HomeImageModel() {
     }
@@ -22,5 +23,13 @@ public class HomeImageModel {
 
     public void setShayariMessage(String shayariMessage) {
         this.shayariMessage = shayariMessage;
+    }
+
+    public String getShayariId() {
+        return shayariId;
+    }
+
+    public void setShayariId(String shayariId) {
+        this.shayariId = shayariId;
     }
 }
