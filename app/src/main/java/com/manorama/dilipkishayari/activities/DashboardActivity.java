@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.manorama.dilipkishayari.R;
+import com.manorama.dilipkishayari.utilities.Constants;
 
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
@@ -55,6 +56,11 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     private void initDashboard() {
+        setupDashboardImage();
+        setupCardView();
+    }
+
+    private void setupDashboardImage(){
         dashboareImageviewOne = findViewById(R.id.dashboard_image_one);
         setPicassoImage(dashboareImageviewOne, R.drawable.dashboard_love);
         dashboareImageviewTwo = findViewById(R.id.dashboard_image_two);
@@ -71,60 +77,63 @@ public class DashboardActivity extends AppCompatActivity {
         setPicassoImage(dashboareImageviewSeven, R.drawable.dashboard_morning);
         dashboareImageviewEight = findViewById(R.id.dashboard_image_eight);
         setPicassoImage(dashboareImageviewEight, R.drawable.dashboard_wishes);
+    }
+
+    private void setupCardView(){
         cardViewOne = (CardView) findViewById(R.id.card_home_1);
         cardViewOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_LOVE_SHAYARI);
             }
         });
         cardViewTwo = (CardView) findViewById(R.id.card_home_2);
         cardViewTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_SAD_SHAYARI);
             }
         });
         cardViewThree = (CardView) findViewById(R.id.card_home_3);
         cardViewThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_MISSING_SHAYARI);
             }
         });
         cardViewFour = (CardView) findViewById(R.id.card_home_4);
         cardViewFour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_FRIENDS_SHAYARI);
             }
         });
         cardViewFive = (CardView) findViewById(R.id.card_home_5);
         cardViewFive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_FUNNY_SHAYARI);
             }
         });
         cardViewSix = (CardView) findViewById(R.id.card_home_6);
         cardViewSix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_INSPIRAL_SHAYARI);
             }
         });
         cardViewSeven = (CardView) findViewById(R.id.card_home_7);
         cardViewSeven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_MORNING_SHAYARI);
             }
         });
         cardViewEight = (CardView) findViewById(R.id.card_home_8);
         cardViewEight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startHomePageActivity();
+                startHomePageActivity(Constants.CONST_WISHES_SHAYARI);
             }
         });
     }
@@ -133,8 +142,9 @@ public class DashboardActivity extends AppCompatActivity {
         Glide.with(DashboardActivity.this).load(imageResId).into(imageView);
     }
 
-    private void startHomePageActivity() {
+    private void startHomePageActivity(String shayariType) {
         Intent intent = new Intent(DashboardActivity.this, HomeImageActivity.class);
+        intent.putExtra(Constants.CONST_SHAYARI_TYPE, shayariType);
         startActivity(intent);
     }
 
