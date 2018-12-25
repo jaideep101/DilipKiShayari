@@ -11,25 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eac4724-6123-465f-a710-939f47c1778a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/adapter/HomeViewpagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/adapter/HomeViewpagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/LoveShayariHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/LoveShayariHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MissingShayariHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MissingShayariHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/SadShayariHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/SadShayariHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_viewpager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_viewpager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_home_viewpager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_home_viewpager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +71,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -122,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissingShayariHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MissingShayariHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MissingShayariHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+            <state relative-caret-position="187">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#3577#3578#0" expanded="true" />
                 <element signature="e#3616#3617#0" expanded="true" />
@@ -153,24 +142,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeImageActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeImageActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="189" column="58" selection-start-line="189" selection-start-column="58" selection-end-line="189" selection-end-column="58" />
+            <state relative-caret-position="161">
+              <caret line="115" column="84" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1311#1327#0" expanded="true" />
-                <element signature="e#3653#3811#0" expanded="true" />
-                <element signature="e#3810#3811#0" expanded="true" />
-                <element signature="e#4839#4871#0" expanded="true" />
-                <element signature="e#5457#5488#0" expanded="true" />
-                <element signature="e#6117#6152#0" expanded="true" />
-                <element signature="e#6785#6820#0" expanded="true" />
-                <element signature="e#7431#7464#0" expanded="true" />
-                <element signature="e#8106#8142#0" expanded="true" />
-                <element signature="e#8776#8811#0" expanded="true" />
-                <element signature="e#9433#9467#0" expanded="true" />
+                <element signature="e#1343#1359#0" expanded="true" />
+                <element signature="e#2521#2714#0" expanded="true" />
+                <element signature="e#2713#2714#0" expanded="true" />
+                <element signature="e#2837#3030#0" expanded="true" />
+                <element signature="e#3029#3030#0" expanded="true" />
+                <element signature="e#3159#3317#0" expanded="true" />
+                <element signature="e#3316#3317#0" expanded="true" />
+                <element signature="e#4794#4826#0" expanded="true" />
+                <element signature="e#5439#5470#0" expanded="true" />
+                <element signature="e#6011#6046#0" expanded="true" />
+                <element signature="e#6587#6622#0" expanded="true" />
+                <element signature="e#7147#7180#0" expanded="true" />
+                <element signature="e#7851#7887#0" expanded="true" />
+                <element signature="e#8428#8463#0" expanded="true" />
+                <element signature="e#9112#9146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2544,10 +2537,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/adapter/HomeViewpagerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/LoveShayariHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home_viewpager.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/SadShayariHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MissingShayariHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java" />
       </list>
     </option>
   </component>
@@ -2559,18 +2552,117 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DilipKiShayari" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
               <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+              <item name="dilipkishayari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DilipKiShayari" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+              <item name="dilipkishayari" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3220,27 +3312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="189" column="58" selection-start-line="189" selection-start-column="58" selection-end-line="189" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1311#1327#0" expanded="true" />
-            <element signature="e#3653#3811#0" expanded="true" />
-            <element signature="e#3810#3811#0" expanded="true" />
-            <element signature="e#4839#4871#0" expanded="true" />
-            <element signature="e#5457#5488#0" expanded="true" />
-            <element signature="e#6117#6152#0" expanded="true" />
-            <element signature="e#6785#6820#0" expanded="true" />
-            <element signature="e#7431#7464#0" expanded="true" />
-            <element signature="e#8106#8142#0" expanded="true" />
-            <element signature="e#8776#8811#0" expanded="true" />
-            <element signature="e#9433#9467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/adapter/HomeViewpagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -3269,7 +3340,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -3282,11 +3353,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MissingShayariHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state relative-caret-position="187">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="e#3577#3578#0" expanded="true" />
             <element signature="e#3616#3617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/HomeImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="115" column="84" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1343#1359#0" expanded="true" />
+            <element signature="e#2521#2714#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#2837#3030#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3159#3317#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#4794#4826#0" expanded="true" />
+            <element signature="e#5439#5470#0" expanded="true" />
+            <element signature="e#6011#6046#0" expanded="true" />
+            <element signature="e#6587#6622#0" expanded="true" />
+            <element signature="e#7147#7180#0" expanded="true" />
+            <element signature="e#7851#7887#0" expanded="true" />
+            <element signature="e#8428#8463#0" expanded="true" />
+            <element signature="e#9112#9146#0" expanded="true" />
           </folding>
         </state>
       </provider>

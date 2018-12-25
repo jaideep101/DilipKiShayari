@@ -114,7 +114,6 @@ public class HomeImageActivity extends AppCompatActivity {
                 viewpagerAdapter = new HomeViewpagerAdapter(this, getHomeImageModelList(loveShayariHandler.getLoveJsonArray()));
                 shayariTitleTextView.setText(getString(R.string.love_shayari));
                 pagination = getPaginationString(1, viewpagerAdapter.getListSize());
-                System.out.println("################### pagination : "+viewpagerAdapter.getListSize());
                 setShayariPagination(pagination);
                 break;
             case Constants.CONST_SAD_SHAYARI:
