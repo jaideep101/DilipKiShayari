@@ -75,17 +75,17 @@
                         android:id="@+id/card_home_1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="14dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="5dp"
                         app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -102,7 +102,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Love Shayari"
+                                android:text="@string/love_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -114,10 +114,10 @@
                         android:id="@+id/card_home_2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="7dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="5dp"
@@ -125,7 +125,7 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -142,7 +142,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Sad Shayari"
+                                android:text="@string/sad_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -161,17 +161,17 @@
                         android:id="@+id/card_home_3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="5dp"
                         app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -188,7 +188,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Missing Shayari"
+                                android:text="@string/missing_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -200,10 +200,10 @@
                         android:id="@+id/card_home_4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="5dp"
@@ -211,7 +211,7 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -228,7 +228,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Friends Shayari"
+                                android:text="@string/friends_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -247,17 +247,17 @@
                         android:id="@+id/card_home_5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="5dp"
                         app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -274,7 +274,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Funny Shayari"
+                                android:text="@string/funny_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -286,10 +286,10 @@
                         android:id="@+id/card_home_6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginBottom="7dp"
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="5dp"
@@ -297,7 +297,7 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -314,7 +314,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Inspiral Shayari"
+                                android:text="@string/inspiral_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -333,17 +333,17 @@
                         android:id="@+id/card_home_7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_weight="1"
                         app:cardCornerRadius="5dp"
                         app:cardElevation="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -360,7 +360,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Morning Shayari"
+                                android:text="@string/morning_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"
@@ -372,10 +372,10 @@
                         android:id="@+id/card_home_8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_weight="1"
                         android:visibility="visible"
                         app:cardCornerRadius="5dp"
@@ -383,7 +383,7 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="130dp"
+                            android:layout_height="120dp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -400,7 +400,7 @@
                                 android:background="@color/transparent"
                                 android:gravity="center_horizontal"
                                 android:padding="3dp"
-                                android:text="Best Wishes"
+                                android:text="@string/wishes_shayari"
                                 android:textColor="@android:color/secondary_text_dark"
                                 android:textSize="16dp"
                                 android:textStyle="italic"

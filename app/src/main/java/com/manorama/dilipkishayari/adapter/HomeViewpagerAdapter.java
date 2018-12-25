@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.manorama.dilipkishayari.R;
+import com.manorama.dilipkishayari.activities.HomeImageActivity;
 import com.manorama.dilipkishayari.model.HomeImageModel;
 import com.manorama.dilipkishayari.utilities.Utils;
 
@@ -40,9 +41,11 @@ public class HomeViewpagerAdapter extends PagerAdapter {
         HomeImageModel homeImageModel = homeImageModelList.get(position);
         TextView messageTextView = layout.findViewById(R.id.shayari_message);
         if(Utils.isValidString(homeImageModel.getShayariMessage())){
-
             messageTextView.setText(homeImageModel.getShayariMessage());
         }
+
+//        String pagination = (position)+" / "+homeImageModelList.size();
+//        ((HomeImageActivity)mContext).setShayariPagination(pagination);
 
         ImageView shareImageView = layout.findViewById(R.id.share_imageview);
         shareImageView.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +56,6 @@ public class HomeViewpagerAdapter extends PagerAdapter {
                 Utils.shareImage(mContext, mBitmap, "Dilip Ki Shayari");
             }
         });
-
     }
 
     @Override
@@ -75,6 +77,10 @@ public class HomeViewpagerAdapter extends PagerAdapter {
     public String getPageTitle(int position) {
         HomeImageModel homeImageModel = homeImageModelList.get(position);
         return homeImageModel.getShayariTitle();
+    }
+
+    public int getListSize(){
+        return homeImageModelList.size();
     }
 
 }

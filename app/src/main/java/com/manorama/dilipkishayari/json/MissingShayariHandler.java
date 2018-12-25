@@ -19,7 +19,10 @@ public class MissingShayariHandler {
 
         try {
             setMissingShayariJson("000001",
-                    "Dooriyan bahut hai magar itna samajh lo.\nPaas rehkar hi koi khas nahi hota.\nTum iss kadar paas ho mere dil ke.\nMujhe dooriyon ka Ehsaas nahi hota.");
+                    "Teri Yaadon Ke Sahare Duniya Mein Rah Lete Hai,\n" +
+                            "Teri Juddai Ka Gam Chupchap Sah Lete Hai,\n" +
+                            "Samjhaya Dilko Yeh Raaz Chupana Hai,\n" +
+                            "Par Aansu Banke Wo Sab Kah Dete Hai.");
 
             setMissingShayariJson("000002",
                     "Safar Wahi Tak Hain Jaha Tak Tum Ho,\nNazar Wahi Tak Hain Jaha Tak Tum Ho,\nPhool Bahut Dekhe Hain Is Gulshan Mein,\nKhusbu Wahi Tak Hain Jaha Tak Tum Ho.");

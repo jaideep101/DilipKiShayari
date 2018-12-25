@@ -14,11 +14,11 @@ public class LoveShayariHandler {
     public static String JSON_LOVE_ID = "LOVE_ID_";
     public static String JSON_LOVE_TITLE = "Love Shayari";
     private JSONObject loveJson;
-    private static JSONArray loveJsonArray;
+    private JSONArray loveJsonArray;
 
     public void createLoveJson() {
+        loveJsonArray = null;
         loveJsonArray = new JSONArray();
-
         try {
             setLoveShayariJson("000001",
                     "Mohabbat Ki Zanjeer Se Dar Lagta Hai\n" +

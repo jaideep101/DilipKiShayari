@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Dilip Ki Shayari</string>
 
-    <string name="love_shayari">Dooriyan bahut hai magar itna samajh lo. Paas rehkar hi koi khas nahi hota. Tum iss kadar paas ho mere dil ke.. Mujhe dooriyon ka Ehsaas nahi hota.</string>
+    <string name="love_shayari">Love Shayari</string>
+    <string name="sad_shayari">Sad Shayari</string>
+    <string name="missing_shayari">Missing Shayari</string>
+    <string name="friends_shayari">Friends Shayari</string>
+    <string name="funny_shayari">Funny Shayari</string>
+    <string name="inspiral_shayari">Inspiral Shayari</string>
+    <string name="morning_shayari">Morning Shayari</string>
+    <string name="wishes_shayari">Best Wishes</string>
 </resources>
