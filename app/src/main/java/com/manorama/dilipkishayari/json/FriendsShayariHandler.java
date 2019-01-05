@@ -135,6 +135,66 @@ public class FriendsShayariHandler {
                             "Jinke dil me aap jaise dost rehte ho,\n" +
                             "Unke liye dhadkan bhi jaruri nahi hoti….");
 
+            setFriendsShayariJson("000021",
+                    "Jab Dosti Ki Dastaan Waqt Sunayega,\n" +
+                            "Hum Ko Bhi Koi Shaks Yaad Ayega,\n" +
+                            "Tab Bhool Jayenge Zindagi Ke Ghamon Ko,\n" +
+                            "Jab Aap Ke Saath Guzra Waqt Yaad Aayega");
+
+            setFriendsShayariJson("000022",
+                    "Yahi To Khoobsurat Dosti Ka Naata Hai,\n" +
+                            "Jo Bina Kisi Shart Ke Kiya Jaata Hai,\n" +
+                            "Rahe Duriyan Darmiyan To Parwaah Nahi,\n" +
+                            "Dost To Harpal Dil Me Basaya Jaata Hai");
+
+            setFriendsShayariJson("000023",
+                    "Aap se jab hamari yaari ho gaye,\n" +
+                            "Duniya aur bhi hamari pyari ho gaye,\n" +
+                            "Ise pehle hum kisi bhi chiz ke adi na the,\n" +
+                            "Par aab aapko yaad karne ki bimari hi gayi.");
+
+            setFriendsShayariJson("000024",
+                    "Doston Ki Bina Zindagi Fuzol Hai Per,\n" +
+                            "Dosti Ke Bhi Apne Kuch Usool Hain,\n" +
+                            "Kehte Hain Dosti Main Bhi Takleef Milti Hai,\n" +
+                            "Per Aap Ho Dost To Sab Kuch Kabool Hai");
+
+            setFriendsShayariJson("000025",
+                    "Mushkil Hai Is Yaari Ko Bhula Pana,\n" +
+                            "Mushkil Hai Tumhe Yaadon Se Mita Pana,\n" +
+                            "Tum Ek Keemti Tohfa Ho Dosti Ka,\n" +
+                            "Namumkin Hai Is Tohfe Ki Keemat Chuka Pana.");
+
+            setFriendsShayariJson("000026",
+                    "Dost hain hum tumhare dushman nahin,\n" +
+                            "Tsunami kehlo humein andhi nahin,\n" +
+                            "Baha le jayenge tumhe apni dosti main,\n" +
+                            "Magar dhool ankhon mein jhokenge nahin!!!");
+
+            setFriendsShayariJson("000027",
+                    "Itne Khushnaseeb To Hum Na The,\n" +
+                            "Hamari Taqdeer Mein Sitam Bhi Kam Na The,\n" +
+                            "Fir Kyun Hum Khuda Ko Itne Bha Gaye,\n" +
+                            "Ki Ban Ke Dost Aap Hamari Zindagi Mein Aa Gaye.");
+
+            setFriendsShayariJson("000028",
+                    "Dosti ke mayne hamse kya puchte ho,\n" +
+                            "Hum abhi in baton se anjaan hain,\n" +
+                            "Sirf ek gujarish hai ke bhool na jana hame,\n" +
+                            "Kyonki aapki dosti hi hamari jaan hai");
+
+            setFriendsShayariJson("000029",
+                    "Bahut Pyari Hai Awaz Tumhari,\n" +
+                            "Banado Isse Qissmat Hamari,\n" +
+                            "Mein Zindagi Mein Aur Kya Chahoon,\n" +
+                            "Agar Mil Jaye Dosti Tumhari");
+
+            setFriendsShayariJson("000020",
+                    "Ajnabi galiyon se hum gujra nahi karte,\n" +
+                            "Dard-e-dil liya aur diya nahi karte,\n" +
+                            "Ye dosti ka rishta sirf tum se hai varna,\n" +
+                            "Itne Message hum kisiko kiya nahi karte.");
+
             setFriendsShayariJson("000031",
                     "Qayamat tak tujhe yaad karenge,\n" +
                             "Teri har baat par aitbaar karenge,\n" +
@@ -249,7 +309,7 @@ public class FriendsShayariHandler {
                             "Kal koi aur mil jaaye toh hamain na bhool jana,\n" +
                             "Dosti ke rishtey jindagi bhar kaam aate hain.");
 
-            setFriendsShayariJson("000040",
+            setFriendsShayariJson("000050",
                     "Phulo ko mehkna sikhane chale,\n" +
                             "In hawao ko rukh batane chale,,\n" +
                             "Hum bahane dhoondte hai doston par mar mitne ka,\n" +
