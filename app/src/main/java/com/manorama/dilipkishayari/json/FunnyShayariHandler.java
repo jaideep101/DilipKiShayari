@@ -19,16 +19,29 @@ public class FunnyShayariHandler {
 
         try {
             setFunnyShayariJson("000001",
-                    "Dooriyan bahut hai magar itna samajh lo.\nPaas rehkar hi koi khas nahi hota.\nTum iss kadar paas ho mere dil ke.\nMujhe dooriyon ka Ehsaas nahi hota.");
+                    "Dakh Baby Post Meri Achi hai\n" +
+                            "Soch Meri Sachi hai\n" +
+                            "Lakin main tujhe abhi bhi\n" +
+                            "Pasand nahi aaya to sweet\n" +
+                            "Heart tu abhi bachi hai");//F
 
             setFunnyShayariJson("000002",
-                    "Safar Wahi Tak Hain Jaha Tak Tum Ho,\nNazar Wahi Tak Hain Jaha Tak Tum Ho,\nPhool Bahut Dekhe Hain Is Gulshan Mein,\nKhusbu Wahi Tak Hain Jaha Tak Tum Ho.");
+                    "Chale gaye ho dur kuchh pal keliye,\n" +
+                            "Door rehkar bhi kareeb ho har pal ke liye,\n" +
+                            "Daise yaad na aye aapki ek pal ke liye,\n" +
+                            "Jab dil mein ho aap har pal ke liye!");
 
             setFunnyShayariJson("000003",
-                    "Chupke se dhadkan me utar jaayenge,\nRaahen Ulfat me had se guzar jaayenge,\nAap jo hamen itna chahenge,\nHum to aapki saanson me pighal jaayenge.");
+                    "Jaha sar juk jaye, vahi kudda ka ghar hai,\n" +
+                            "Jaha har nadhi mil jaye, vahi samudar hai,\n" +
+                            "Iss zindgi me dard to sab dete hai,\n" +
+                            "Jo dard samjhe vahi saccha humsafar hai.");
 
             setFunnyShayariJson("000004",
-                    "Har kadam Har pal saath hai,\nDur hokar bhi hum aapke pass hai,\nAapko ho na ho par hume aapki kasam,\nAapki kami ka har pal ehsaas hai.");
+                    "Tamanna kuch bhi nahi hai, \n" +
+                            "Ek tere didar ke siva, \n" +
+                            "Jindagi adhuri hai, \n" +
+                            "Sanam tere pyar ke siva!!");
 
             setFunnyShayariJson("000005",
                     "Aankho ki gehrai ko samajh nahi sakte,\nHonto se kuch keh nahi sakte,\nKaise baya kare hum aapko yeh dil ka haal ki,\nTumhi ho jiske bageir hum reh nahi sakte.");

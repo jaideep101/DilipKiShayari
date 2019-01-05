@@ -314,6 +314,53 @@ public class LoveShayariHandler {
                             "Bas Yahi Ek Vaada Nibha Jayenge Hum, \n" +
                             "Mita Denge Khud Ko Iss Jahan Se Lekin, \n" +
                             "Tera Naam Dil Se Na Mita Payenge Hum.");
+
+            setLoveShayariJson("000051",
+                    "Hoti nahi MoHaBBat surat se, \n" +
+                            "MoHaBBaT to dil se hoti hai, \n" +
+                            "surat unki khud hi pyari lagti hai, \n" +
+                            "kadar jinki dil me hoti hai.");
+
+            setLoveShayariJson("000052",
+                    "Kya aalam, kya nazaara \n" +
+                            "Kya masti,kya badal \n" +
+                            "Yunhi tumhe dekhta raha to \n" +
+                            "Ho jaoonga main paagal.");
+
+            setLoveShayariJson("000053",
+                    "Jo Sararat Ki Unhone Kal Humse\n" +
+                            "Us Ada Par Dil Nishaar Kar Baithe\n" +
+                            "Dil Toh Chahta Tha Badla Lein Unse\n" +
+                            "Na Jaane Kyu Unse Pyar Kar Baithe");
+
+            setLoveShayariJson("000054",
+                    "Tamanna kuch bhi nahi hai,\n" +
+                            "Ek tere didar ke siva,\n" +
+                            "Jindagi adhuri hai,\n" +
+                            "Sanam tere pyar ke siva!!");
+
+            setLoveShayariJson("000055",
+                    "Kuch Nasha Aapki Baat Ka Hai, \n" +
+                            "Kuch Nasha Dhimi Barsat Ka Hai, \n" +
+                            "Hame Aap Yuhi Sharabi Maat Kahiye, \n" +
+                            "Ye Dil Par Asar Aapse Pahali Mulaqat Ka Hai…");
+
+
+            setLoveShayariJson("000055",
+                    "Woh Hame Dekhte Hain Sab Se Nazar Bacha Ke\n" +
+                            "Hum Unhe Dekhte Hain Unse Nazar Bacha Ke");
+
+            setLoveShayariJson("000054",
+                    "Kuch Nasha Aapki Baat Ka Hai, \n" +
+                            "Kuch Nasha Dhimi Barsat Ka Hai, \n" +
+                            "Hame Aap Yuhi Sharabi Maat Kahiye, \n" +
+                            "Ye Dil Par Asar Aapse Pahali Mulaqat Ka Hai…");
+
+            setLoveShayariJson("000054",
+                    "Kuch Nasha Aapki Baat Ka Hai, \n" +
+                            "Kuch Nasha Dhimi Barsat Ka Hai, \n" +
+                            "Hame Aap Yuhi Sharabi Maat Kahiye, \n" +
+                            "Ye Dil Par Asar Aapse Pahali Mulaqat Ka Hai…");
         } catch (JSONException jex) {
             jex.printStackTrace();
         }
