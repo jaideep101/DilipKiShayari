@@ -351,16 +351,24 @@ public class LoveShayariHandler {
                             "Hum Unhe Dekhte Hain Unse Nazar Bacha Ke");
 
             setLoveShayariJson("000054",
-                    "Kuch Nasha Aapki Baat Ka Hai, \n" +
-                            "Kuch Nasha Dhimi Barsat Ka Hai, \n" +
-                            "Hame Aap Yuhi Sharabi Maat Kahiye, \n" +
+                    "Kuch Nasha Aapki Baat Ka Hai,\n" +
+                            "Kuch Nasha Dhimi Barsat Ka Hai,\n" +
+                            "Hame Aap Yuhi Sharabi Maat Kahiye,\n" +
                             "Ye Dil Par Asar Aapse Pahali Mulaqat Ka Hai…");
 
             setLoveShayariJson("000054",
                     "Kuch Nasha Aapki Baat Ka Hai, \n" +
-                            "Kuch Nasha Dhimi Barsat Ka Hai, \n" +
-                            "Hame Aap Yuhi Sharabi Maat Kahiye, \n" +
+                            "Kuch Nasha Dhimi Barsat Ka Hai,\n" +
+                            "Hame Aap Yuhi Sharabi Maat Kahiye,\n" +
                             "Ye Dil Par Asar Aapse Pahali Mulaqat Ka Hai…");
+
+            setLoveShayariJson("000054",
+                    "Hum Se Bachkar Rehna,\n" +
+                            "Hum Phool Se Khushbu Chura Lete Hai,\n" +
+                            "Dil Se Gham Nikalva Lete Hain,\n" +
+                            "Samne Wale Ko Pata Bhi Nahi Chalta,\n" +
+                            "Aur Hum Use Apna Bana Lete Hain.");
+
         } catch (JSONException jex) {
             jex.printStackTrace();
         }

@@ -306,6 +306,18 @@ public class MissingShayariHandler {
                             "Tum Bhul Jao Toh Tumhari Marzi,\n" +
                             "Hamein To Yoon Bhulana Bhi Nahi Aata");
 
+            setMissingShayariJson("000061",
+                    "Aaj shayari nahi bas itna sun lo \n" +
+                            "Main tanha hun aur wajah tum ho.");
+
+            setMissingShayariJson("000061",
+                    "Takleef Btanay ka Man Nai Bus Itna Sunty Jao\n" +
+                            "Tumhari Yaad Mai Dil Bechain Bohat Aaj Hai");
+
+            setMissingShayariJson("000062",
+                    "Tujhae khabar hai tujhe sochne ki khatir hum\n" +
+                            "Bohat say kaam muqaddar pay daal dete hain");
+
 
 
         } catch (JSONException jex) {

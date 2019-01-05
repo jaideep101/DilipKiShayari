@@ -312,6 +312,18 @@ public class SadShayariHandler {
                             "Dil To Dil Tha Koi Samandar Ka Saahil Nahi,\n" +
                             "Likh Diya Jo Naam Wo Fir Mitaya Na Gaya.");
 
+            setSadShayariJson("000052",
+                    "Nazar andaz kaise kare aapko,\n" +
+                            "Nazron me bithaya hai jo aapko,\n" +
+                            "Yaad aane par roye bhi to kaise,\n" +
+                            "Darte hai jhuki jo palke to chubhengi aapko.");
+
+            setSadShayariJson("000053",
+                    "Ek bewafa jisne tanhai ka manjar nahi dekha\n" +
+                            "Afsos mere dil ke andar nahi dekha \n" +
+                            "Mujhe dekhkr usne patthar bata diya\n" +
+                            "Me mom tha chukar nahi dekha");
+
 
         } catch (JSONException jex) {
             jex.printStackTrace();
