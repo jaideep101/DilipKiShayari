@@ -21,7 +21,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/InspiralShayariHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/InspiralShayariHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,18 +44,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_dashboard.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8668">
-              <caret line="394" selection-start-line="394" selection-end-line="394" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_home_viewpager.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_viewpager.xml">
           <provider editor-type-id="android-designer2">
@@ -107,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InspiralShayariHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InspiralShayariHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/InspiralShayariHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
               <caret line="296" column="64" selection-start-line="296" selection-start-column="64" selection-end-line="296" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MorningShayariHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="314" column="60" selection-start-line="314" selection-start-column="60" selection-end-line="314" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -2493,7 +2490,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/JsonHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/LoveJsonHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/SadJsonHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/WishesShayariHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/utilities/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/activities/DashboardActivity.java" />
@@ -2509,6 +2505,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/FriendsShayariHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/FunnyShayariHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/InspiralShayariHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java" />
       </list>
     </option>
   </component>
@@ -2553,7 +2550,42 @@
           <expand>
             <path>
               <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+              <item name="dilipkishayari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DilipKiShayari" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="manorama" type="462c0819:PsiDirectoryNode" />
+              <item name="dilipkishayari" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2711,8 +2743,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32963374" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32963374" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
@@ -2980,17 +3013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#3562#3563#0" expanded="true" />
-            <element signature="e#3601#3602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/WishesShayariHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-751">
@@ -3122,6 +3144,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="296" column="64" selection-start-line="296" selection-start-column="64" selection-end-line="296" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manorama/dilipkishayari/json/MorningShayariHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="314" column="60" selection-start-line="314" selection-start-column="60" selection-end-line="314" selection-end-column="60" />
         </state>
       </provider>
     </entry>
